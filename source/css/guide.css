@@ -1,0 +1,86 @@
+.mui-bar {
+    background-color: #3598DB;
+}
+
+.mui-bar .mui-action-back,
+.mui-bar .mui-title {
+    color: #FFFFFF;
+}
+
+.yunyou-user-upload {
+    width: 90px;
+    height: 90px;
+    margin: 60px auto 20px auto;
+    border-radius: 50%;
+    background-image: url(../img/logo.png);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.yunyou-text {
+    width: 90px;
+    height: 90px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    line-height: 90px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.yunyou-user-upload img {
+    width: 90px;
+    height: 90px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+}
+
+.yunyou-form {
+    margin: 20px;
+}
+
+.mui-card-content-inner {
+    padding: 5px;
+    overflow: hidden;
+}
+
+.yunyou-form .mui-icon {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+.yunyou-form input {
+    width: 80%;
+    color: #666666;
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px 10px 0px 10px;
+    float: left;
+}
+
+.yunyou-button-group button {
+    height: 40px;
+    border: 0px;
+    border-radius: 0px;
+    display: block;
+    box-sizing: border-box;
+}
+
+#yunyou-button-save {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #3598DB;
+}
+
+#yunyou-button-skip {
+    margin: 10px auto;
+    color: #3598DB;
+    background: none;
+}

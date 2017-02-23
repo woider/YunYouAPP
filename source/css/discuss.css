@@ -1,0 +1,267 @@
+.yunyou-content {
+    margin-top: 44px;
+    margin-bottom: 40px;
+}
+
+.yunyou-content-header {
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.yunyou-content-header h3 {
+    height: 40px;
+    margin: 0px;
+    color: #3598DB;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: normal;
+    float: left;
+}
+
+.yunyou-content-header p {
+    height: 40px;
+    margin: 0px;
+    color: #999999;
+    font-size: 12px;
+    line-height: 40px;
+    margin-left: 10px;
+    float: left;
+}
+
+.yunyou-assess {
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px #CCCCCC;
+}
+
+.yunyou-assess-header {
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.yunyou-assess-header img {
+    border-radius: 3px;
+    width: 50px;
+    float: left;
+}
+
+.yunyou-assess-info {
+    padding-left: 60px;
+}
+
+.yunyou-assess-info h4 {
+    margin: 0px;
+    color: #333333;
+    font-size: 14px;
+    /*font-weight: normal;*/
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.yunyou-assess-info p {
+    margin: 0px;
+    color: #999999;
+    font-size: 12px;
+    float: right;
+}
+
+.yunyou-assess-star {
+    float: left;
+}
+
+.yunyou-assess-star span {
+    color: #CCCCCC;
+    font-size: 18px;
+    float: left;
+}
+
+.yunyou-assess-star span.yunyou-active {
+    color: #FFA500;
+}
+
+.yunyou-assess-content {
+    color: #333333;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.yunyou-assess-image {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.yunyou-image-pack {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    overflow: hidden;
+    float: left;
+}
+
+.yunyou-image-pack:last-child {
+    margin-right: 0px;
+}
+
+.yunyou-assess-options {
+    height: 30px;
+    width: 80%;
+    /*padding: 0px 50px;*/
+    margin: 5px auto;
+}
+
+.yunyou-assess-options button {
+    height: 30px;
+    width: 40%;
+    color: #3598DB;
+    background: none;
+    border: 1px solid #3598DB;
+}
+
+.yunyou-assess-options .yunyou-active {
+    color: #FFFFFF;
+    background: #3598DB;
+}
+
+.yunyou-assess-options button > em {
+    font-style: normal;
+}
+
+#yunyou-btn-zan {
+    float: left;
+}
+
+#yunyou-btn-cai {
+    float: right;
+}
+
+.yunyou-discuss {
+    padding: 10px;
+    margin-top: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px #CCCCCC;
+}
+
+.yunyou-discuss > p {
+    color: #999999;
+    font-size: 14px;
+}
+
+.yunyou-discuss-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-top: 1px solid #CCCCCC;
+}
+
+.yunyou-discuss-item {
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.yunyou-discuss-item > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    float: left;
+}
+
+.yunyou-discuss-content {
+    padding-left: 50px;
+}
+
+.yunyou-discuss-content > h5 {
+    color: #333333;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    float: left;
+}
+
+.yunyou-discuss-content > button,
+.yunyou-discuss-content > button:active {
+    padding: 0px 5px;
+    border: none;
+    background: none;
+    float: right;
+}
+
+.yunyou-discuss-content > button > em {
+    width: 24px;
+    color: #BBBBBB;
+    font-size: 12px;
+    font-style: normal;
+    text-align: right;
+    float: right;
+}
+
+.yunyou-discuss-content > button > span {
+    color: #BBBBBB;
+    font-size: 16px;
+    float: right;
+}
+
+.yunyou-discuss-content > button.yunyou-active > em,
+.yunyou-discuss-content > button.yunyou-active > span {
+    color: #DD524D;
+}
+
+.yunyou-discuss-content > div {
+    color: #888888;
+    width: 100%;
+    font-size: 14px;
+    padding-top: 28px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.yunyou-comment {
+    width: 100%;
+    padding: 5px 10px;
+    background: #FFFFFF;
+    /*box-shadow: 0 -1px 6px #CCCCCC;*/
+    position: fixed;
+    bottom: 0px;
+}
+
+.yunyou-comment .yunyou-pull-right {
+    height: 30px;
+    float: right;
+}
+
+.yunyou-comment .yunyou-pull-right > button {
+    width: 60px;
+    height: 30px;
+}
+
+.yunyou-comment .yunyou-pull-right > button,
+.yunyou-comment .yunyou-pull-right > button:active {
+    color: #FFFFFF;
+    border: none;
+    background: #CCCCCC;
+}
+
+.yunyou-comment .yunyou-pull-right > p {
+    margin: 10px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.yunyou-comment .yunyou-pull-left {
+    padding-right: 70px;
+}
+
+.yunyou-comment .yunyou-pull-left > textarea {
+    height: 30px;
+    margin: 0px;
+    font-size: 14px;
+    padding: 4px 10px;
+    /*transition: height 0.5s;*/
+    float: left;
+}
+
+.yunyou-comment .yunyou-pull-left > textarea:focus {
+    height: 100px;
+}

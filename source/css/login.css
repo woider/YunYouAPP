@@ -1,0 +1,83 @@
+.yunyou-logo {
+    width: 90px;
+    margin: 20px auto;
+}
+
+.yunyou-logo img {
+    max-width: 100%;
+}
+
+.yunyou-logo h1 {
+    width: 100%;
+    height: 20px;
+    color: #3598db;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+}
+
+.yunyou-form {
+    margin: 20px;
+}
+
+.mui-card-content-inner {
+    padding: 5px;
+    overflow: hidden;
+}
+
+.yunyou-form .mui-icon,
+.yunyou-form .mui-icon-extra {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+.yunyou-form hr {
+    border-style: solid;
+    border-color: #CCCCCC;
+    border-bottom: 1px;
+    margin: 0px;
+}
+
+.yunyou-form input {
+    color: #666666;
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px 10px 0px 10px;
+    float: left;
+}
+
+#yunyou-input-phone {
+    width: 80%;
+}
+
+#yunyou-input-email {
+    width: 40%;
+}
+
+#yunyou-button-send {
+    width: 30%;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    float: right;
+}
+
+#yunyou-button-login {
+    height: 40px;
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+    color: #FFFFFF;
+    background-color: #3598db;
+    display: block;
+    box-sizing: border-box;
+}

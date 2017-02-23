@@ -1,0 +1,118 @@
+.mui-bar {
+    background: #3598DB;
+}
+
+.mui-bar .mui-icon,
+.mui-bar .mui-title,
+.mui-bar .mui-btn,
+.mui-bar .mui-btn:active {
+    color: #FFFFFF;
+}
+
+.yunyou-form {
+    padding: 10px;
+    margin-top: 44px;
+}
+
+.yunyou-form-double {
+    /*overflow: hidden;*/
+}
+
+.yunyou-card {
+    border-radius: 2px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 3px #CCCCCC;
+}
+
+.yunyou-image {
+    width: 100px;
+    padding: 6px;
+    margin: 0px;
+    float: left;
+}
+
+.yunyou-image img {
+    width: 88px;
+    height: 88px;
+    float: left;
+}
+
+.yunyou-select-outer {
+    padding-left: 110px;
+}
+
+.yunyou-input-outer {
+    height: 50px;
+    padding-left: 50px;
+}
+
+.yunyou-select {
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF;
+}
+
+.yunyou-form-sex,
+.yunyou-form-day,
+.yunyou-form-name,
+.yunyou-form-work {
+    height: 50px;
+}
+
+.yunyou-form-sex,
+.yunyou-form-name {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.yunyou-form-sex label,
+.yunyou-form-day label,
+.yunyou-form-single label {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: #999999;
+    float: left;
+}
+
+.yunyou-form-sex span {
+    width: 50px;
+    height: 50px;
+    color: #999999;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+}
+
+.yunyou-form-day input,
+.yunyou-form-single input {
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    float: left;
+}
+
+#yunyou-btn-quit {
+    height: 40px;
+    width: 100%;
+    margin: 10px 0px;
+    color: #FFFFFF;
+    border-radius: 0px;
+    background: #DD524D;
+    border: none;
+    display: block;
+}
+
+.yunyou-form-single {
+    margin-top: 10px;
+}
+
+#yunyou-btn-quit:active {
+    background: #CF2D28;
+}

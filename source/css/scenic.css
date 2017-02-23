@@ -1,0 +1,198 @@
+header.mui-bar {
+    background: #3598DB;
+}
+
+.mui-bar a,
+.mui-bar h1,
+.mui-bar span {
+    color: #FFFFFF;
+}
+
+.mui-bar .mui-btn-link,
+.mui-bar .mui-btn-link:active {
+    color: #FFFFFF;
+}
+
+.mui-bar span.mui-icon {
+    height: 44px;
+    width: 32px;
+    line-height: 44px;
+    text-align: center;
+    padding: 0px !important;
+    margin: 0px !important;
+    transform-origin: 50%;
+    font-size: 18px;
+    float: right;
+}
+
+.mui-bar span.mui-icon-spinner {
+    transform-origin: 50%;
+    -webkit-animation: mymove 1s linear infinite;
+    animation: mymove 1s linear infinite;
+}
+
+@-webkit-keyframes mymove {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes mymove {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.yunyou-result {
+    padding-top: 44px;
+}
+
+.yunyou-result > div {
+    width: 160px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.yunyou-result > div > h2 {
+    color: #CCCCCC;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.yunyou-result > div > span {
+    color: #EEEEEE;
+    font-size: 100px;
+    font-weight: bold;
+    background: #CCCCCC;
+    border-radius: 50%;
+}
+
+.yunyou-result > div > button,
+.yunyou-result > div > button:active {
+    width: 160px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    background: #3598DB;
+    color: #FFFFFF;
+}
+
+.yunyou-result-success span {
+    background: #4CD964 !important;
+}
+
+.yunyou-result-success h2 {
+    color: #4CD964 !important;
+}
+
+.yunyou-result-defeat span {
+    background: #DD524D !important;
+}
+
+.yunyou-result-defeat h2 {
+    color: #DD524D !important;
+}
+
+.yunyou-form {
+    padding: 10px;
+    margin-top: 44px;
+}
+
+.yunyou-card {
+    border-radius: 2px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 3px #CCCCCC;
+    background-color: #FFFFFF;
+}
+
+.yunyou-form-name {
+    height: 40px;
+    padding-left: 80px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.yunyou-form-name label,
+.yunyou-form-address label {
+    height: 40px;
+    width: 80px;
+    color: #999999;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    left: 0px;
+}
+
+.yunyou-form-name input,
+.yunyou-form-address input {
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    background: none;
+}
+
+.yunyou-form-address {
+    height: 80px;
+}
+
+.yunyou-form-address > div {
+    width: 100%;
+    height: 40px;
+    padding-left: 80px;
+    padding-right: 10px;
+    position: relative;
+    float: left;
+}
+
+.yunyou-form-address > div:first-child {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.yunyou-form-describe {
+    height: 120px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.yunyou-form-describe textarea {
+    height: 120px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    float: left;
+}
+
+.yunyou-form-image {
+    padding: 10px 0px 0px 10px;
+    overflow: hidden;
+}
+
+.yunyou-form-image img,
+.yunyou-form-image button {
+    width: 30%;
+    margin: 0px 10px 10px 0px;
+    display: inline-block;
+    float: left;
+}
+
+.yunyou-form-image button,
+.yunyou-form-image button:active {
+    height: 58px;
+    border-radius: 0px;
+    background: #FFFFFF;
+    border: 1px dashed #CCCCCC;
+}
+
+.yunyou-form-image button span {
+    font-size: 32px;
+    color: #999999;
+}

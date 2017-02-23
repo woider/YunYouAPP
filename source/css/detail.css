@@ -1,0 +1,256 @@
+.yunyou-content {
+    margin-top: 44px;
+    padding: 10px 0px;
+}
+
+.yunyou-grayscale {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.yunyou-scenic,
+.yunyou-assess,
+.yunyou-discard {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px #CCCCCC;
+}
+
+.yunyou-scenic-header {
+    padding: 10px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.yunyou-scenic-header h3 {
+    margin: 0px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.yunyou-scenic-header p {
+    color: #999999;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.yunyou-scenic-header button {
+    color: #CCCCCC;
+    font-size: 11px;
+    padding: 2px 4px;
+    border: 1px solid #CCCCCC;
+    float: right;
+}
+
+.mui-slider-item img {
+    float: left;
+}
+
+.yunyou-scenic-assess {
+    padding: 10px 10px 0px 10px;
+    overflow: hidden;
+}
+
+.yunyou-scenic-star {
+    height: 24px;
+    float: left;
+}
+
+.yunyou-scenic-star span {
+    color: #CCCCCC;
+    font-size: 20px;
+    float: left;
+}
+
+.yunyou-scenic-star span.yunyou-active {
+    color: #FFA500;
+}
+
+.yunyou-scenic-assess em {
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-style: normal;
+    float: left;
+}
+
+.yunyou-scenic-assess p {
+    margin: 0px;
+    height: 20px;
+    line-height: 20px;
+    color: #999999;
+    font-size: 14px;
+    float: right;
+}
+
+.yunyou-scenic-introduce {
+    padding: 8px 10px 0px 10px;
+    font-size: 14px;
+    /*line-height: 24px;*/
+    color: #333333;
+}
+
+.yunyou-scenic-options {
+    padding: 10px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    clear: both;
+}
+
+.yunyou-pull-left {
+    width: 50%;
+    padding-right: 5px;
+    float: left;
+}
+
+.yunyou-pull-right {
+    width: 50%;
+    padding-left: 5px;
+    float: right;
+}
+
+.yunyou-scenic-options button,
+.yunyou-scenic-options button:active {
+    width: 100%;
+    height: 30px;
+    color: #3598DB;
+    background: none;
+    border: 1px solid #3598DB;
+}
+
+.yunyou-assess {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.yunyou-assess-header {
+    padding: 5px 0px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.yunyou-assess-header > a {
+    font-size: 15px;
+}
+
+.yunyou-assess-header .yunyou-active {
+    color: #333333;
+}
+
+.yunyou-assess-list,
+.yunyou-discard-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.yunyou-assess-item {
+    margin-top: 10px;
+}
+
+.yunyou-assess-item-header {
+    height: 40px;
+    position: relative;
+}
+
+.yunyou-assess-item-header > img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #EEEEEE;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.yunyou-assess-item-header > h4 {
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    margin: 0 0 0 40px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.yunyou-assess-item-header > p {
+    color: #999999;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.yunyou-assess-star {
+    height: 20px;
+    margin-left: 40px;
+    padding-left: 5px;
+}
+
+.yunyou-assess-star span {
+    height: 20px;
+    line-height: 20px;
+    color: #CCCCCC;
+    font-size: 18px;
+    float: left;
+}
+
+.yunyou-assess-star span.yunyou-active {
+    color: #FFA500;
+}
+
+.yunyou-assess-item-content {
+    margin-top: 8px;
+    margin-left: 40px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #CCCCCC;
+    overflow: hidden;
+}
+
+.yunyou-assess-item-content > div {
+    color: #333333;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.yunyou-assess-item-content > p {
+    margin: 0px;
+    color: #999999;
+    font-size: 12px;
+    float: right;
+}
+
+.yunyou-assess-footer {
+    margin-top: 10px;
+}
+
+.yunyou-assess-footer button {
+    height: 30px;
+    width: 100%;
+    color: #999999;
+    border: 1px solid #999999;
+    border-radius: 0px;
+    background: none;
+}
+
+.yunyou-assess-footer button:active {
+    color: #999999;
+    background: none;
+}
+
+.yunyou-discard {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.yunyou-discard > p {
+    margin: 0px;
+    color: #999999;
+    font-size: 14px;
+}
+
+.yunyou-discard > p > span {
+    color: #999999;
+    font-size: 18px;
+    float: right;
+}
